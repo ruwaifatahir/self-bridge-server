@@ -6,7 +6,6 @@ import { WebSocketProvider, ethers, Wallet, Contract } from "ethers";
 import { bridgeAbi } from "./abi/bridgeAbi.js";
 dotenv.config();
 
-//----------------------------BSC CONFIG---------------------------------
 //Constants
 const PRIVATE_KEY = process.env.PRIVATE_KEY;
 const RPC_URL = process.env.ETH_RPC_URL;
