@@ -14,7 +14,7 @@ Create a new file named `.env`, copy the contents of `.env.example` into it, and
  npm run start
 ```
 
-**How it works**
+# How it works
 
 This server is an essential part of the SELF bridge. Whenever someone moves their tokens from the source chain, this server facilitates the inbound transfer of tokens to the same person on the destination chain.
 
