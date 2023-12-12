@@ -9,7 +9,7 @@ const main = async () => {
   console.log("Listening to outbound event...");
 
   // listen for outbound event on BSC and inbound tokens on ETH
-  bsc.bridgeContract.on("tokensOutBound", (holder, amount) => {
+  bsc.bridgeContract.on("TokensOutBound", (holder, amount) => {
     createInboundTx(
       holder,
       amount,
@@ -22,7 +22,7 @@ const main = async () => {
   });
 
   // listen for outbound event on ETH and inbound tokens on BSC
-  eth.bridgeContract.on("tokensOutBound", (holder, amount) => {
+  eth.bridgeContract.on("TokensOutBound", (holder, amount) => {
     createInboundTx(
       holder,
       amount,
